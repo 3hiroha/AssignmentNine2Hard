@@ -35,7 +35,7 @@ const MyForm = () => {
         <br/>
       <form onSubmit={handleSubmit}>
         <label>
-          Email: <input type="text" value={email} onChange={handleEmailChange} required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" placeholder="Type in your email bro"/>
+          Email: <input type="email" value={email} onChange={handleEmailChange} required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" placeholder="Type in your email bro"/>
         </label>
         <br/>
         <label>
